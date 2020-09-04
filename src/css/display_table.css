@@ -1,0 +1,19 @@
+.displayTableArea {
+}
+
+.table_row {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+}
+
+.buttonSide {
+  margin-bottom: 10px;
+}
+
+a.submit {
+  background: green;
+  color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+}
